@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">English Master</string>
+    <string name="title">English Master</string>
+    <string name="start">시작</string>
+    <string name="howTo">게임방법</string>
+    <string name="viewRec">기록</string>
+    <string name="back">뒤로</string>
+    <string name="easy">쉬움</string>
+    <string name="hard">어려움</string>
+    <string name="restart">재시작</string>
+    <string name="stop">그만하기</string>
+    <string name="hint">힌트</string>
+    <string name="input">단어를 입력하세요</string>
+    <string name="pass">다음</string>
+    <string name="enter">확인</string>
+    <string name="time">남은 시간</string>
+    <string name="name">이름</string>
+    <string name="score">점수</string>
+    <string name="input_name">이름을 입력하세요</string>
+
+    <!-- 튜토리얼 -->
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="end">GOT IT</string>
+
+    <string name="slide_1_title">Hello Food!</string>
+    <string name="slide_1_desc">The easiest way to order food from your favourite restaurant!</string>
+
+    <string name="slide_2_title">Movie Tickets</string>
+    <string name="slide_2_desc">Book movie tickets for your family and friends!</string>
+
+    <string name="slide_3_title">Great Discounts</string>
+    <string name="slide_3_desc">Best discounts on every single service we offer!</string>
+
+    <string name="slide_4_title">World Travel</string>
+    <string name="slide_4_desc">Book tickets of any transportation and travel the world!</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

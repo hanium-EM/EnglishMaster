@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.game.em.englishmaster.GameActivity">
+
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical" android:weightSum="10">
+
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical" android:layout_weight="2">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="4"
+                android:orientation="horizontal">
+
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/time" android:textSize="15dp" android:layout_weight="1"/>
+                    <TextView android:id="@+id/timer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="0 초" android:textSize="20dp" android:layout_weight="1"/>
+
+
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/score" android:textSize="15dp" android:layout_weight="1"/>
+                    <TextView android:id="@+id/score" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="0" android:textSize="20dp" android:layout_weight="1"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical" android:gravity="center">
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="vertical" android:gravity="center" android:layout_marginBottom="38dp">
+                    <TextView android:id="@+id/question" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="KOR" android:textSize="28dp"/>
+                    <TextView android:id="@+id/ans" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="HINT" android:textSize="28dp"/>
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical" android:layout_weight="8" android:gravity="bottom" android:weightSum="6">
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"  >
+                <EditText android:id="@+id/ins" android:layout_width="170dp" android:layout_height="wrap_content" android:hint="@string/input" android:layout_weight="4"  android:maxLength="20" />
+                <Button android:id="@+id/enter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/enter" android:onClick="mOnClick" android:layout_weight="2"/>
+
+            </LinearLayout>
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="9">
+                <Button android:id="@+id/hint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hint" android:onClick="mOnClick" android:layout_weight="3"/>
+                <Button android:id="@+id/pass" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pass" android:onClick="mOnClick" android:layout_weight="3"/>
+                <Button android:id="@+id/stop" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/stop" android:onClick="mOnClick" android:layout_weight="3"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>
